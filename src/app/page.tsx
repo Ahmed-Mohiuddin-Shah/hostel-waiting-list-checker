@@ -25,8 +25,8 @@ export default function Home() {
     }, 2000); // Simulate loading delay
     toast.success("Your position in the waiting list is 5.", 
       {
-        position: "top-center",
-        autoClose: 5000,
+        position: "top-right",
+        autoClose: 1000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
